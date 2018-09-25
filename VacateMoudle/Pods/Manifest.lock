@@ -1,0 +1,16 @@
+PODS:
+  - ComponentScheduler (0.0.1)
+
+DEPENDENCIES:
+  - ComponentScheduler (from `../ComponentScheduler`)
+
+EXTERNAL SOURCES:
+  ComponentScheduler:
+    :path: "../ComponentScheduler"
+
+SPEC CHECKSUMS:
+  ComponentScheduler: 1c377788b261765393ae2b86e24aa80298959fe5
+
+PODFILE CHECKSUM: ae28db2f4e83484b872f59bc247c5f024fb7b965
+
+COCOAPODS: 1.5.3

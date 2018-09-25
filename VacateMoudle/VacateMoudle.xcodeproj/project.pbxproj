@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498FA6C51DB470FDBD58FEE3 /* libPods-VacateMoudle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4461DBB9993869AFDD2A3A /* libPods-VacateMoudle.a */; };
+		533603772159CC0B00D588F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533603752159CC0B00D588F5 /* Main.storyboard */; };
+		5336037A2159CC0B00D588F5 /* VacateMoudle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */; };
+		5336037C2159CC0C00D588F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5336037B2159CC0C00D588F5 /* Assets.xcassets */; };
+		5336037F2159CC0C00D588F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */; };
+		5336038C2159CC0C00D588F5 /* VacateMoudleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5336038B2159CC0C00D588F5 /* VacateMoudleTests.m */; };
+		533603972159CC0C00D588F5 /* VacateMoudleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533603962159CC0C00D588F5 /* VacateMoudleUITests.m */; };
+		533603A92159D07B00D588F5 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 533603A82159D07B00D588F5 /* libstdc++.tbd */; };
+		5351E66E215A2991005DFF9A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E66B215A2991005DFF9A /* DetailViewController.m */; };
+		5351E66F215A2991005DFF9A /* VacateApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E66C215A2991005DFF9A /* VacateApplyViewController.m */; };
+		5351E672215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */; };
+		53C1DD852159DF7400D3F3EF /* Target_VacateApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */; };
+		53C1DD872159E03900D3F3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1DD862159E03900D3F3EF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533603882159CC0C00D588F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533603642159CC0B00D588F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5336036B2159CC0B00D588F5;
+			remoteInfo = VacateMoudle;
+		};
+		533603932159CC0C00D588F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533603642159CC0B00D588F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5336036B2159CC0B00D588F5;
+			remoteInfo = VacateMoudle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4461DBB9993869AFDD2A3A /* libPods-VacateMoudle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VacateMoudle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5336036C2159CC0B00D588F5 /* VacateMoudle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacateMoudle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		533603762159CC0B00D588F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533603792159CC0B00D588F5 /* VacateMoudle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VacateMoudle.xcdatamodel; sourceTree = "<group>"; };
+		5336037B2159CC0C00D588F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5336037E2159CC0C00D588F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		533603802159CC0C00D588F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533603872159CC0C00D588F5 /* VacateMoudleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacateMoudleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5336038B2159CC0C00D588F5 /* VacateMoudleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VacateMoudleTests.m; sourceTree = "<group>"; };
+		5336038D2159CC0C00D588F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533603922159CC0C00D588F5 /* VacateMoudleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacateMoudleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		533603962159CC0C00D588F5 /* VacateMoudleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VacateMoudleUITests.m; sourceTree = "<group>"; };
+		533603982159CC0C00D588F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533603A82159D07B00D588F5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		5351E66A215A2991005DFF9A /* VacateApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacateApplyViewController.h; sourceTree = "<group>"; };
+		5351E66B215A2991005DFF9A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5351E66C215A2991005DFF9A /* VacateApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacateApplyViewController.m; sourceTree = "<group>"; };
+		5351E66D215A2991005DFF9A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5351E670215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+VacateApplyViewController.h"; sourceTree = "<group>"; };
+		5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+VacateApplyViewController.m"; sourceTree = "<group>"; };
+		53C1DD832159DF7400D3F3EF /* Target_VacateApply.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_VacateApply.h; sourceTree = "<group>"; };
+		53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_VacateApply.m; sourceTree = "<group>"; };
+		53C1DD862159E03900D3F3EF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacateMoudle.release.xcconfig"; path = "Pods/Target Support Files/Pods-VacateMoudle/Pods-VacateMoudle.release.xcconfig"; sourceTree = "<group>"; };
+		9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacateMoudle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VacateMoudle/Pods-VacateMoudle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533603692159CC0B00D588F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533603A92159D07B00D588F5 /* libstdc++.tbd in Frameworks */,
+				498FA6C51DB470FDBD58FEE3 /* libPods-VacateMoudle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533603842159CC0C00D588F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336038F2159CC0C00D588F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533603632159CC0B00D588F5 = {
+			isa = PBXGroup;
+			children = (
+				5336036E2159CC0B00D588F5 /* VacateMoudle */,
+				5336038A2159CC0C00D588F5 /* VacateMoudleTests */,
+				533603952159CC0C00D588F5 /* VacateMoudleUITests */,
+				5336036D2159CC0B00D588F5 /* Products */,
+				533603A72159D07A00D588F5 /* Frameworks */,
+				84D5CCF380C6D76B6A268F83 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5336036D2159CC0B00D588F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5336036C2159CC0B00D588F5 /* VacateMoudle.app */,
+				533603872159CC0C00D588F5 /* VacateMoudleTests.xctest */,
+				533603922159CC0C00D588F5 /* VacateMoudleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5336036E2159CC0B00D588F5 /* VacateMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				53C1DD822159DF5400D3F3EF /* Target */,
+				53C1DD7E2159DE7B00D3F3EF /* ComponentSchedulerVacateApplyViewController */,
+				533603752159CC0B00D588F5 /* Main.storyboard */,
+				5351E66D215A2991005DFF9A /* DetailViewController.h */,
+				5351E66B215A2991005DFF9A /* DetailViewController.m */,
+				5351E66A215A2991005DFF9A /* VacateApplyViewController.h */,
+				5351E66C215A2991005DFF9A /* VacateApplyViewController.m */,
+				5336037B2159CC0C00D588F5 /* Assets.xcassets */,
+				5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */,
+				533603802159CC0C00D588F5 /* Info.plist */,
+				53C1DD862159E03900D3F3EF /* main.m */,
+				533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */,
+			);
+			path = VacateMoudle;
+			sourceTree = "<group>";
+		};
+		5336038A2159CC0C00D588F5 /* VacateMoudleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5336038B2159CC0C00D588F5 /* VacateMoudleTests.m */,
+				5336038D2159CC0C00D588F5 /* Info.plist */,
+			);
+			path = VacateMoudleTests;
+			sourceTree = "<group>";
+		};
+		533603952159CC0C00D588F5 /* VacateMoudleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				533603962159CC0C00D588F5 /* VacateMoudleUITests.m */,
+				533603982159CC0C00D588F5 /* Info.plist */,
+			);
+			path = VacateMoudleUITests;
+			sourceTree = "<group>";
+		};
+		533603A72159D07A00D588F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533603A82159D07B00D588F5 /* libstdc++.tbd */,
+				2D4461DBB9993869AFDD2A3A /* libPods-VacateMoudle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C1DD7E2159DE7B00D3F3EF /* ComponentSchedulerVacateApplyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5351E670215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.h */,
+				5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */,
+			);
+			path = ComponentSchedulerVacateApplyViewController;
+			sourceTree = "<group>";
+		};
+		53C1DD822159DF5400D3F3EF /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				53C1DD832159DF7400D3F3EF /* Target_VacateApply.h */,
+				53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		84D5CCF380C6D76B6A268F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */,
+				883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5336036B2159CC0B00D588F5 /* VacateMoudle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5336039B2159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudle" */;
+			buildPhases = (
+				7063BB4E6E33CD6068593AC4 /* [CP] Check Pods Manifest.lock */,
+				533603682159CC0B00D588F5 /* Sources */,
+				533603692159CC0B00D588F5 /* Frameworks */,
+				5336036A2159CC0B00D588F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VacateMoudle;
+			productName = VacateMoudle;
+			productReference = 5336036C2159CC0B00D588F5 /* VacateMoudle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533603862159CC0C00D588F5 /* VacateMoudleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5336039E2159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudleTests" */;
+			buildPhases = (
+				533603832159CC0C00D588F5 /* Sources */,
+				533603842159CC0C00D588F5 /* Frameworks */,
+				533603852159CC0C00D588F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533603892159CC0C00D588F5 /* PBXTargetDependency */,
+			);
+			name = VacateMoudleTests;
+			productName = VacateMoudleTests;
+			productReference = 533603872159CC0C00D588F5 /* VacateMoudleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533603912159CC0C00D588F5 /* VacateMoudleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533603A12159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudleUITests" */;
+			buildPhases = (
+				5336038E2159CC0C00D588F5 /* Sources */,
+				5336038F2159CC0C00D588F5 /* Frameworks */,
+				533603902159CC0C00D588F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533603942159CC0C00D588F5 /* PBXTargetDependency */,
+			);
+			name = VacateMoudleUITests;
+			productName = VacateMoudleUITests;
+			productReference = 533603922159CC0C00D588F5 /* VacateMoudleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533603642159CC0B00D588F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tc;
+				TargetAttributes = {
+					5336036B2159CC0B00D588F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					533603862159CC0C00D588F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5336036B2159CC0B00D588F5;
+					};
+					533603912159CC0C00D588F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5336036B2159CC0B00D588F5;
+					};
+				};
+			};
+			buildConfigurationList = 533603672159CC0B00D588F5 /* Build configuration list for PBXProject "VacateMoudle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533603632159CC0B00D588F5;
+			productRefGroup = 5336036D2159CC0B00D588F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5336036B2159CC0B00D588F5 /* VacateMoudle */,
+				533603862159CC0C00D588F5 /* VacateMoudleTests */,
+				533603912159CC0C00D588F5 /* VacateMoudleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5336036A2159CC0B00D588F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5336037F2159CC0C00D588F5 /* LaunchScreen.storyboard in Resources */,
+				5336037C2159CC0C00D588F5 /* Assets.xcassets in Resources */,
+				533603772159CC0B00D588F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533603852159CC0C00D588F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533603902159CC0C00D588F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7063BB4E6E33CD6068593AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VacateMoudle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533603682159CC0B00D588F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5351E66E215A2991005DFF9A /* DetailViewController.m in Sources */,
+				53C1DD852159DF7400D3F3EF /* Target_VacateApply.m in Sources */,
+				5336037A2159CC0B00D588F5 /* VacateMoudle.xcdatamodeld in Sources */,
+				5351E672215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m in Sources */,
+				53C1DD872159E03900D3F3EF /* main.m in Sources */,
+				5351E66F215A2991005DFF9A /* VacateApplyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533603832159CC0C00D588F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5336038C2159CC0C00D588F5 /* VacateMoudleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336038E2159CC0C00D588F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533603972159CC0C00D588F5 /* VacateMoudleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533603892159CC0C00D588F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5336036B2159CC0B00D588F5 /* VacateMoudle */;
+			targetProxy = 533603882159CC0C00D588F5 /* PBXContainerItemProxy */;
+		};
+		533603942159CC0C00D588F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5336036B2159CC0B00D588F5 /* VacateMoudle */;
+			targetProxy = 533603932159CC0C00D588F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533603752159CC0B00D588F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533603762159CC0B00D588F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5336037E2159CC0C00D588F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533603992159CC0C00D588F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5336039A2159CC0C00D588F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5336039C2159CC0C00D588F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5336039D2159CC0C00D588F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5336039F2159CC0C00D588F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacateMoudle.app/VacateMoudle";
+			};
+			name = Debug;
+		};
+		533603A02159CC0C00D588F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VacateMoudle.app/VacateMoudle";
+			};
+			name = Release;
+		};
+		533603A22159CC0C00D588F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VacateMoudle;
+			};
+			name = Debug;
+		};
+		533603A32159CC0C00D588F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAL9CNCYWA;
+				INFOPLIST_FILE = VacateMoudleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.VacateMoudleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VacateMoudle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533603672159CC0B00D588F5 /* Build configuration list for PBXProject "VacateMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533603992159CC0C00D588F5 /* Debug */,
+				5336039A2159CC0C00D588F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5336039B2159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336039C2159CC0C00D588F5 /* Debug */,
+				5336039D2159CC0C00D588F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5336039E2159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336039F2159CC0C00D588F5 /* Debug */,
+				533603A02159CC0C00D588F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533603A12159CC0C00D588F5 /* Build configuration list for PBXNativeTarget "VacateMoudleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533603A22159CC0C00D588F5 /* Debug */,
+				533603A32159CC0C00D588F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				533603792159CC0B00D588F5 /* VacateMoudle.xcdatamodel */,
+			);
+			currentVersion = 533603792159CC0B00D588F5 /* VacateMoudle.xcdatamodel */;
+			path = VacateMoudle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 533603642159CC0B00D588F5 /* Project object */;
+}
