@@ -18,8 +18,8 @@
 		5351E66E215A2991005DFF9A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E66B215A2991005DFF9A /* DetailViewController.m */; };
 		5351E66F215A2991005DFF9A /* VacateApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E66C215A2991005DFF9A /* VacateApplyViewController.m */; };
 		5351E672215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */; };
+		5351E675215A471E005DFF9A /* ComponentScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5351E674215A471E005DFF9A /* ComponentScheduler.m */; };
 		53C1DD852159DF7400D3F3EF /* Target_VacateApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */; };
-		53C1DD872159E03900D3F3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C1DD862159E03900D3F3EF /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +60,10 @@
 		5351E66D215A2991005DFF9A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5351E670215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComponentScheduler+VacateApplyViewController.h"; sourceTree = "<group>"; };
 		5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ComponentScheduler+VacateApplyViewController.m"; sourceTree = "<group>"; };
+		5351E673215A471D005DFF9A /* ComponentScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentScheduler.h; sourceTree = "<group>"; };
+		5351E674215A471E005DFF9A /* ComponentScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentScheduler.m; sourceTree = "<group>"; };
 		53C1DD832159DF7400D3F3EF /* Target_VacateApply.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_VacateApply.h; sourceTree = "<group>"; };
 		53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_VacateApply.m; sourceTree = "<group>"; };
-		53C1DD862159E03900D3F3EF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacateMoudle.release.xcconfig"; path = "Pods/Target Support Files/Pods-VacateMoudle/Pods-VacateMoudle.release.xcconfig"; sourceTree = "<group>"; };
-		9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacateMoudle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VacateMoudle/Pods-VacateMoudle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +101,6 @@
 				533603952159CC0C00D588F5 /* VacateMoudleUITests */,
 				5336036D2159CC0B00D588F5 /* Products */,
 				533603A72159D07A00D588F5 /* Frameworks */,
-				84D5CCF380C6D76B6A268F83 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,7 +127,6 @@
 				5336037B2159CC0C00D588F5 /* Assets.xcassets */,
 				5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */,
 				533603802159CC0C00D588F5 /* Info.plist */,
-				53C1DD862159E03900D3F3EF /* main.m */,
 				533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */,
 			);
 			path = VacateMoudle;
@@ -165,6 +162,8 @@
 		53C1DD7E2159DE7B00D3F3EF /* ComponentSchedulerVacateApplyViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5351E673215A471D005DFF9A /* ComponentScheduler.h */,
+				5351E674215A471E005DFF9A /* ComponentScheduler.m */,
 				5351E670215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.h */,
 				5351E671215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m */,
 			);
@@ -178,15 +177,6 @@
 				53C1DD842159DF7400D3F3EF /* Target_VacateApply.m */,
 			);
 			path = Target;
-			sourceTree = "<group>";
-		};
-		84D5CCF380C6D76B6A268F83 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */,
-				883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +335,7 @@
 				53C1DD852159DF7400D3F3EF /* Target_VacateApply.m in Sources */,
 				5336037A2159CC0B00D588F5 /* VacateMoudle.xcdatamodeld in Sources */,
 				5351E672215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m in Sources */,
-				53C1DD872159E03900D3F3EF /* main.m in Sources */,
+				5351E675215A471E005DFF9A /* ComponentScheduler.m in Sources */,
 				5351E66F215A2991005DFF9A /* VacateApplyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,7 +503,6 @@
 		};
 		5336039C2159CC0C00D588F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E9DF7E3911E9A4815C65A1A /* Pods-VacateMoudle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,7 +520,6 @@
 		};
 		5336039D2159CC0C00D588F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 883BD0CC578808DE064BB999 /* Pods-VacateMoudle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
